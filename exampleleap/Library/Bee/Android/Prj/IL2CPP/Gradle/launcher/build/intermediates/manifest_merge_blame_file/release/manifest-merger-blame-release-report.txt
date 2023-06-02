@@ -1,0 +1,209 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.DefaultCompany.exampleleap"
+4    android:installLocation="auto"
+5    android:versionCode="1"
+6    android:versionName="0.1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="29"
+9-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="29" />
+10-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
+11
+12    <supports-screens
+12-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:3-163
+13        android:anyDensity="true"
+13-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:135-160
+14        android:largeScreens="true"
+14-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:78-105
+15        android:normalScreens="true"
+15-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:49-77
+16        android:smallScreens="true"
+16-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:21-48
+17        android:xlargeScreens="true" />
+17-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:106-134
+18
+19    <uses-feature android:glEsVersion="0x00030000" />
+19-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:12:5-54
+19-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:12:19-51
+20    <uses-feature
+20-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:13:5-15:36
+21        android:name="android.hardware.vulkan.version"
+21-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:14:9-55
+22        android:required="false" />
+22-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:15:9-33
+23
+24    <uses-permission android:name="android.permission.INTERNET" />
+24-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:17:5-67
+24-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:17:22-64
+25    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+25-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:18:5-71
+25-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:18:22-68
+26    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+26-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:19:5-80
+26-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:19:22-77
+27    <uses-permission android:name="android.permission.BLUETOOTH" />
+27-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:20:5-68
+27-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:20:22-65
+28
+29    <uses-feature
+29-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:22:5-24:36
+30        android:name="android.hardware.microphone"
+30-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:23:9-51
+31        android:required="false" />
+31-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:24:9-33
+32    <uses-feature
+32-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:25:5-27:36
+33        android:name="android.hardware.touchscreen"
+33-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:26:9-52
+34        android:required="false" />
+34-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:27:9-33
+35    <uses-feature
+35-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:28:5-30:36
+36        android:name="android.hardware.touchscreen.multitouch"
+36-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:29:9-63
+37        android:required="false" />
+37-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:30:9-33
+38    <uses-feature
+38-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:31:5-33:36
+39        android:name="android.hardware.touchscreen.multitouch.distinct"
+39-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:32:9-72
+40        android:required="false" />
+40-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:33:9-33
+41    <uses-feature
+41-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:34:5-37:31
+42        android:name="android.hardware.vr.headtracking"
+42-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:35:9-56
+43        android:required="true"
+43-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:36:9-32
+44        android:version="1" />
+44-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:37:9-28
+45    <uses-feature
+45-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:38:5-40:36
+46        android:name="oculus.software.handtracking"
+46-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:39:9-52
+47        android:required="false" />
+47-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:40:9-33
+48
+49    <uses-permission android:name="com.oculus.permission.HAND_TRACKING" />
+49-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:42:5-75
+49-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:42:22-72
+50    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+50-->[:UltraleapTrackingServiceBinder:] C:\Users\nonsk\.gradle\caches\transforms-2\files-2.1\b2c8de2eecd54b7b5846273596b183cf\UltraleapTrackingServiceBinder\AndroidManifest.xml:10:5-79
+50-->[:UltraleapTrackingServiceBinder:] C:\Users\nonsk\.gradle\caches\transforms-2\files-2.1\b2c8de2eecd54b7b5846273596b183cf\UltraleapTrackingServiceBinder\AndroidManifest.xml:10:22-76
+51
+52    <queries>
+52-->[:UltraleapTrackingServiceBinder:] C:\Users\nonsk\.gradle\caches\transforms-2\files-2.1\b2c8de2eecd54b7b5846273596b183cf\UltraleapTrackingServiceBinder\AndroidManifest.xml:12:5-14:15
+53        <package android:name="com.ultraleap.tracking.service" />
+53-->[:UltraleapTrackingServiceBinder:] C:\Users\nonsk\.gradle\caches\transforms-2\files-2.1\b2c8de2eecd54b7b5846273596b183cf\UltraleapTrackingServiceBinder\AndroidManifest.xml:13:9-66
+53-->[:UltraleapTrackingServiceBinder:] C:\Users\nonsk\.gradle\caches\transforms-2\files-2.1\b2c8de2eecd54b7b5846273596b183cf\UltraleapTrackingServiceBinder\AndroidManifest.xml:13:18-63
+54    </queries>
+55
+56    <application
+56-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:3-83
+57        android:allowBackup="false"
+57-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:45:9-36
+58        android:extractNativeLibs="true"
+58-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:46:9-41
+59        android:icon="@mipmap/app_icon"
+59-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:49-80
+60        android:label="@string/app_name"
+60-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:16-48
+61        android:networkSecurityConfig="@xml/network_sec_config" >
+61-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:49:9-64
+62        <activity
+62-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:50:9-74:20
+63            android:name="com.unity3d.player.UnityPlayerActivity"
+63-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:51:13-66
+64            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+64-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:52:13-194
+65            android:hardwareAccelerated="false"
+65-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:53:13-48
+66            android:launchMode="singleTask"
+66-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:54:13-44
+67            android:resizeableActivity="false"
+67-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:55:13-47
+68            android:screenOrientation="landscape"
+68-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:56:13-50
+69            android:theme="@style/UnityThemeSelector" >
+69-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:57:13-54
+70            <intent-filter>
+70-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:58:13-63:29
+71                <action android:name="android.intent.action.MAIN" />
+71-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:59:17-69
+71-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:59:25-66
+72
+73                <category android:name="android.intent.category.LAUNCHER" />
+73-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:61:17-77
+73-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:61:27-74
+74                <category android:name="com.oculus.intent.category.VR" />
+74-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:62:17-74
+74-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:62:27-71
+75            </intent-filter>
+76
+77            <meta-data
+77-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:65:13-67:40
+78                android:name="unityplayer.UnityActivity"
+78-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:66:17-57
+79                android:value="true" />
+79-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:67:17-37
+80            <meta-data
+80-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:68:13-70:40
+81                android:name="android.notch_support"
+81-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:69:17-53
+82                android:value="true" />
+82-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:70:17-37
+83            <meta-data
+83-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:71:13-73:40
+84                android:name="com.oculus.vr.focusaware"
+84-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:72:17-56
+85                android:value="true" />
+85-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:73:17-37
+86        </activity>
+87
+88        <meta-data
+88-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:76:9-78:33
+89            android:name="unity.splash-mode"
+89-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:77:13-45
+90            android:value="0" />
+90-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:78:13-30
+91        <meta-data
+91-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:79:9-81:36
+92            android:name="unity.splash-enable"
+92-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:80:13-47
+93            android:value="True" />
+93-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:81:13-33
+94        <meta-data
+94-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:82:9-84:36
+95            android:name="unity.launch-fullscreen"
+95-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:83:13-51
+96            android:value="True" />
+96-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:84:13-33
+97        <meta-data
+97-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:85:9-87:37
+98            android:name="unity.allow-resizable-window"
+98-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:86:13-56
+99            android:value="False" />
+99-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:87:13-34
+100        <meta-data
+100-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:88:9-90:50
+101            android:name="notch.config"
+101-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:89:13-40
+102            android:value="portrait|landscape" />
+102-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:90:13-47
+103        <meta-data
+103-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:91:9-93:44
+104            android:name="com.oculus.supportedDevices"
+104-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:92:13-55
+105            android:value="quest|quest2" />
+105-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:93:13-41
+106        <meta-data
+106-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:94:9-96:36
+107            android:name="com.oculus.handtracking.frequency"
+107-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:95:13-61
+108            android:value="HIGH" />
+108-->[:unityLibrary] C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:96:13-33
+109    </application>
+110
+111</manifest>

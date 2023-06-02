@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Samples/Ultraleap Tracking/6.8.1/Examples/1. XR Examples/1. Getting
+      Started/Introduction to Hand Tracking in XR.unity
+    guid: f17f1d3b24ee55249bf6fcd7582e295d
+  - enabled: 0
+    path: Assets/Samples/Ultraleap Tracking/6.8.1/Examples/1. XR Examples/2. Building
+      Blocks/5. Pose Detection/1. Pose Recorder.unity
+    guid: a55e9ab3836d4164f8f7e86c3f50ae99
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: f129b1eed31558b4a83153b64206f5c7, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 5c8b44b5b44c0154d91e09320ec16059, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: f6190091daecfb14583786f805a9d84e, type: 2}

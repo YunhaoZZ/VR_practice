@@ -1,0 +1,399 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.16f1 (4016570cf34f) revision 4200023'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'en' Physical Memory: 16059 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/nonsk/Documents/GitHub/exampleleap
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+53509
+Successfully changed project path to: C:/Users/nonsk/Documents/GitHub/exampleleap
+C:/Users/nonsk/Documents/GitHub/exampleleap
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [23620] Host "[IP] 172.16.136.172 [Port] 0 [Flags] 2 [Guid] 4191075379 [EditorId] 4191075379 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2B5LC6C) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [23620] Host "[IP] 172.16.136.172 [Port] 0 [Flags] 2 [Guid] 4191075379 [EditorId] 4191075379 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2B5LC6C) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 292.60 ms, found 16 plugins.
+Preloading 1 native plugins for Editor in 1.20 ms.
+Initialize engine version: 2021.3.16f1 (4016570cf34f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/nonsk/Documents/GitHub/exampleleap/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 SUPER (ID=0x2187)
+    Vendor:   NVIDIA
+    VRAM:     3943 MB
+    Driver:   31.0.15.2824
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56180
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009220 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 146.97 ms, found 16 plugins.
+Preloading 1 native plugins for Editor in 0.16 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.776 seconds
+Domain Reload Profiling:
+	ReloadAssembly (776ms)
+		BeginReloadAssembly (138ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (521ms)
+			LoadAssemblies (137ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (109ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (337ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (52ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (147ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (89ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.075293 seconds.
+Android Extension - Scanning For ADB Devices 919 ms
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\nonsk\Documents\GitHub\exampleleap\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\nonsk\Documents\GitHub\exampleleap\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 125.72 ms, found 16 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Package Manager log level set to [2]
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+[XR] OVRP version 1.79.0
+Mono: successfully reloaded assembly
+- Completed reload, in 10.085 seconds
+Domain Reload Profiling:
+	ReloadAssembly (10086ms)
+		BeginReloadAssembly (100ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (9685ms)
+			LoadAssemblies (6772ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (282ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (86ms)
+			SetupLoadedEditorAssemblies (2488ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (126ms)
+				BeforeProcessingInitializeOnLoad (109ms)
+				ProcessInitializeOnLoadAttributes (865ms)
+				ProcessInitializeOnLoadMethodAttributes (1361ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 1.25 ms, found 16 plugins.
+Preloading 1 native plugins for Editor in 0.27 ms.
+Unloading 5619 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 91 unused Assets / (222.9 KB). Loaded Objects now: 6026.
+Memory consumption went from 205.5 MB to 205.3 MB.
+Total: 3.695900 ms (FindLiveObjects: 0.442100 ms CreateObjectMapping: 0.225000 ms MarkObjects: 2.851800 ms  DeleteObjects: 0.176200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1818634.546323 seconds.
+  path: Assets/Samples/Ultraleap Tracking
+  artifactKey: Guid(369191d0743fa1148b23feceb1e9113d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Ultraleap Tracking using Guid(369191d0743fa1148b23feceb1e9113d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f8d4322afa844942bc8a3324a6da825') in 0.014262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003160 seconds.
+  path: Assets/Samples/Ultraleap Tracking/6.8.1
+  artifactKey: Guid(f963762834993774c8c12215e7fc03d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Ultraleap Tracking/6.8.1 using Guid(f963762834993774c8c12215e7fc03d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bc86789ad01055f5a7f2f5c1c823a8d') in 0.016394 seconds 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 16.61 ms, found 16 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 81 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 81 unused Assets / (187.2 KB). Loaded Objects now: 6026.
+Memory consumption went from 86.5 MB to 86.3 MB.
+Total: 3.825000 ms (FindLiveObjects: 0.448700 ms CreateObjectMapping: 0.375600 ms MarkObjects: 2.842800 ms  DeleteObjects: 0.157000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 585.487095 seconds.
+  path: Assets/Samples/Ultraleap Tracking/6.8.1/Examples/1. XR Examples
+  artifactKey: Guid(f0d237e5d8e959d43af74faf39399ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Ultraleap Tracking/6.8.1/Examples/1. XR Examples using Guid(f0d237e5d8e959d43af74faf39399ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f96243ad5ba1083ffc026f89ba943008') in 0.005453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.498467 seconds.
+  path: Assets/Samples/Ultraleap Tracking/6.8.1/Examples/1. XR Examples/2. Building Blocks
+  artifactKey: Guid(5e4d58cf882f44842a4598e5016a2112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Ultraleap Tracking/6.8.1/Examples/1. XR Examples/2. Building Blocks using Guid(5e4d58cf882f44842a4598e5016a2112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b01358d989171d3b116829f41aa617ef') in 0.015258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.669825 seconds.
+  path: Assets/Samples/Ultraleap Tracking/6.8.1/Examples/1. XR Examples/2. Building Blocks/1. Basics
+  artifactKey: Guid(772d352a80134a6499776eb8a9816e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Ultraleap Tracking/6.8.1/Examples/1. XR Examples/2. Building Blocks/1. Basics using Guid(772d352a80134a6499776eb8a9816e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b6fdf02a3130cfde91761cd7553582b') in 0.005256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.974324 seconds.
+  path: Assets/Samples/Ultraleap Tracking/6.8.1/Examples/1. XR Examples/2. Building Blocks/5. Pose Detection
+  artifactKey: Guid(75036f34dbde3f946bf5cfa7fabe03e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Ultraleap Tracking/6.8.1/Examples/1. XR Examples/2. Building Blocks/5. Pose Detection using Guid(75036f34dbde3f946bf5cfa7fabe03e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef154f0cd4118dda0fa65291351c6f7d') in 0.009945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.810321 seconds.
+  path: Assets/Samples/Ultraleap Tracking/6.8.1/Examples/1. XR Examples/2. Building Blocks/5. Pose Detection/1. Pose Recorder.unity
+  artifactKey: Guid(a55e9ab3836d4164f8f7e86c3f50ae99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Ultraleap Tracking/6.8.1/Examples/1. XR Examples/2. Building Blocks/5. Pose Detection/1. Pose Recorder.unity using Guid(a55e9ab3836d4164f8f7e86c3f50ae99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '429fd35de5bd58680f5a29cc97e5fbff') in 0.005376 seconds 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 22.13 ms, found 16 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 81 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 81 unused Assets / (187.4 KB). Loaded Objects now: 6026.
+Memory consumption went from 86.5 MB to 86.3 MB.
+Total: 4.404800 ms (FindLiveObjects: 0.404200 ms CreateObjectMapping: 0.307700 ms MarkObjects: 3.494100 ms  DeleteObjects: 0.197300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 16.22 ms, found 16 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 81 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 81 unused Assets / (195.0 KB). Loaded Objects now: 6026.
+Memory consumption went from 86.5 MB to 86.3 MB.
+Total: 2.933500 ms (FindLiveObjects: 0.436700 ms CreateObjectMapping: 0.242900 ms MarkObjects: 2.083400 ms  DeleteObjects: 0.169400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 259.672379 seconds.
+  path: Packages/com.ultraleap.tracking/Hands
+  artifactKey: Guid(211e20156b6516042b3e3fe35c3f02ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.ultraleap.tracking/Hands using Guid(211e20156b6516042b3e3fe35c3f02ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9654be7bb3c12736ebe7ec92b23c31ca') in 0.010452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.068523 seconds.
+  path: Packages/com.ultraleap.tracking/Hands/Runtime
+  artifactKey: Guid(10d38d1442132b242a6a34a21b497ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.ultraleap.tracking/Hands/Runtime using Guid(10d38d1442132b242a6a34a21b497ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '911921e35405c0452a25b24a8b5bdd36') in 0.006148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.041143 seconds.
+  path: Packages/com.ultraleap.tracking/Hands/Runtime/Ultraleap.Tracking.Hands.asmdef
+  artifactKey: Guid(dba0504bd56f224468f91b4ddeba1eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.ultraleap.tracking/Hands/Runtime/Ultraleap.Tracking.Hands.asmdef using Guid(dba0504bd56f224468f91b4ddeba1eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '714b4d70d78825675e2203baa2ec1037') in 0.036446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.966767 seconds.
+  path: Packages/com.ultraleap.tracking/Hands/Runtime/Prefabs
+  artifactKey: Guid(fec7755642bf5e543be5a9f45c11de32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.ultraleap.tracking/Hands/Runtime/Prefabs using Guid(fec7755642bf5e543be5a9f45c11de32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb11b4205b229c2129c382c2ce99d16c') in 0.006703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.071902 seconds.
+  path: Packages/com.ultraleap.tracking/Hands/Runtime/Prefabs/CapsuleHands.prefab
+  artifactKey: Guid(8163655ae6e81f149b112acc9972a9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.ultraleap.tracking/Hands/Runtime/Prefabs/CapsuleHands.prefab using Guid(8163655ae6e81f149b112acc9972a9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04242fc2c6b9379468cb51ac25a610c9') in 0.041980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000881 seconds.
+  path: Packages/com.ultraleap.tracking/Hands/Runtime/Prefabs/OutlineHands.prefab
+  artifactKey: Guid(1b43d6eb40db60b419700fd2677e79c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.ultraleap.tracking/Hands/Runtime/Prefabs/OutlineHands.prefab using Guid(1b43d6eb40db60b419700fd2677e79c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aec87915714bd0e31733d4a97efde72') in 0.131316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Packages/com.ultraleap.tracking/Hands/Runtime/Prefabs/GenericHand_Arm.prefab
+  artifactKey: Guid(85bdae4f36eb5b14c9fac95aec79bf2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.ultraleap.tracking/Hands/Runtime/Prefabs/GenericHand_Arm.prefab using Guid(85bdae4f36eb5b14c9fac95aec79bf2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dfa54d8806c2177479e1899537df6a6') in 0.043522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Packages/com.ultraleap.tracking/Hands/Runtime/Prefabs/GhostHands.prefab
+  artifactKey: Guid(e7e358565e530214c97adba8c82fedc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.ultraleap.tracking/Hands/Runtime/Prefabs/GhostHands.prefab using Guid(e7e358565e530214c97adba8c82fedc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6a2d5790b8f5c47a6ed7a5b1ce31abf') in 0.029456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Packages/com.ultraleap.tracking/Hands/Runtime/Prefabs/SkeletonHands.prefab
+  artifactKey: Guid(fa1f99719015b5649bec3f061b234469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.ultraleap.tracking/Hands/Runtime/Prefabs/SkeletonHands.prefab using Guid(fa1f99719015b5649bec3f061b234469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cf04c7b86405be707aed9974a93e379') in 0.072181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Packages/com.ultraleap.tracking/Hands/Runtime/Prefabs/LowPolyHands.prefab
+  artifactKey: Guid(1d338fed0ed7df84a86c220153fbcc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.ultraleap.tracking/Hands/Runtime/Prefabs/LowPolyHands.prefab using Guid(1d338fed0ed7df84a86c220153fbcc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b67d0aafc0e6a1285c4a885c279f31d5') in 0.036869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.737780 seconds.
+  path: Packages/com.ultraleap.tracking/Hands/Runtime/Models
+  artifactKey: Guid(82c0ff55e49b61a4082d0c51135a5840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.ultraleap.tracking/Hands/Runtime/Models using Guid(82c0ff55e49b61a4082d0c51135a5840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0470ba668731a05701be04211089d1b') in 0.006190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.110327 seconds.
+  path: Packages/com.ultraleap.tracking/Hands/Runtime/Models/LeapReferenceHand.fbx
+  artifactKey: Guid(61ff45a45c97aa040b65877017d51fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.ultraleap.tracking/Hands/Runtime/Models/LeapReferenceHand.fbx using Guid(61ff45a45c97aa040b65877017d51fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0de0374c4d3b983696ee681f356e99b9') in 0.175496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.689661 seconds.
+  path: Packages/com.ultraleap.tracking/Core/Runtime/Ultraleap.Tracking.Core.asmdef
+  artifactKey: Guid(cec9848704c49724192ff47f9b3e9156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.ultraleap.tracking/Core/Runtime/Ultraleap.Tracking.Core.asmdef using Guid(cec9848704c49724192ff47f9b3e9156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c04a03a0759dec2fc5610cf61e734809') in 0.005265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.290008 seconds.
+  path: Packages/com.ultraleap.tracking/Core/Runtime/Prefabs/Service Provider (Screentop).prefab
+  artifactKey: Guid(ae56ec35d0bcbba49962ea56f2aaa0fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.ultraleap.tracking/Core/Runtime/Prefabs/Service Provider (Screentop).prefab using Guid(ae56ec35d0bcbba49962ea56f2aaa0fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6217a8c07f28d746d267caf8942ba41c') in 0.008943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.424540 seconds.
+  path: Packages/com.ultraleap.tracking/Interaction Engine/Runtime/Ultraleap.Tracking.InteractionEngine.asmdef
+  artifactKey: Guid(3a12b97a7afaf6b47bfe53cf1f942886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.ultraleap.tracking/Interaction Engine/Runtime/Ultraleap.Tracking.InteractionEngine.asmdef using Guid(3a12b97a7afaf6b47bfe53cf1f942886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b526b128681581fdea1a112ddb68ca33') in 0.006516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.919908 seconds.
+  path: Packages/com.ultraleap.tracking/Interaction Engine/Runtime/Prefabs/3D UI Panel.prefab
+  artifactKey: Guid(9ee124cb2665d084f929bfec00bb2124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.ultraleap.tracking/Interaction Engine/Runtime/Prefabs/3D UI Panel.prefab using Guid(9ee124cb2665d084f929bfec00bb2124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '638cceeb367a185d7eeb613c055ac1f2') in 0.158793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.944654 seconds.
+  path: Packages/com.ultraleap.tracking/Interaction Engine/Runtime/Prefabs/Interaction Controllers/Interaction Hand (Right).prefab
+  artifactKey: Guid(edcc5ee563218a84ab541a00a47ea5c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.ultraleap.tracking/Interaction Engine/Runtime/Prefabs/Interaction Controllers/Interaction Hand (Right).prefab using Guid(edcc5ee563218a84ab541a00a47ea5c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af1b422aff1af6d482bea07251497c01') in 0.011499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Packages/com.ultraleap.tracking/Interaction Engine/Runtime/Prefabs/Interaction Controllers/VR Vive-style Controller (Right).prefab
+  artifactKey: Guid(72368278d054cda4bb18e5aa08ce971d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.ultraleap.tracking/Interaction Engine/Runtime/Prefabs/Interaction Controllers/VR Vive-style Controller (Right).prefab using Guid(72368278d054cda4bb18e5aa08ce971d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d0f03df744524d3d929afd7012c17c5') in 0.013438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.025312 seconds.
+  path: Assets/Samples/Ultraleap Tracking/6.8.1/Examples/Example Assets/Materials/Attachment Hands Example Green.mat
+  artifactKey: Guid(81f6d387b9d5c994d9e291af97c84648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Ultraleap Tracking/6.8.1/Examples/Example Assets/Materials/Attachment Hands Example Green.mat using Guid(81f6d387b9d5c994d9e291af97c84648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14fdfddf041cd0061ab74a5c287c2360') in 0.035924 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

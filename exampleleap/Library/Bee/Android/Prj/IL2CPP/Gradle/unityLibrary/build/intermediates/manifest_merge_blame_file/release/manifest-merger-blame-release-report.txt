@@ -1,0 +1,186 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player"
+5    android:versionCode="1"
+6    android:versionName="0.1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="29"
+9-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="29" />
+10-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml
+11
+12    <uses-feature android:glEsVersion="0x00030000" />
+12-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:3-52
+12-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:17-49
+13    <uses-feature
+13-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:3-91
+14        android:name="android.hardware.vulkan.version"
+14-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:17-63
+15        android:required="false" />
+15-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:64-88
+16
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:3-65
+17-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:20-62
+18    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+18-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:3-69
+18-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:20-66
+19    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+19-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:3-78
+19-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:20-75
+20    <uses-permission android:name="android.permission.BLUETOOTH" />
+20-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:3-66
+20-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:20-63
+21
+22    <uses-feature
+22-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:3-87
+23        android:name="android.hardware.microphone"
+23-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:17-59
+24        android:required="false" />
+24-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:60-84
+25    <uses-feature
+25-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:3-88
+26        android:name="android.hardware.touchscreen"
+26-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:17-60
+27        android:required="false" />
+27-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:61-85
+28    <uses-feature
+28-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:3-99
+29        android:name="android.hardware.touchscreen.multitouch"
+29-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:17-71
+30        android:required="false" />
+30-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:72-96
+31    <uses-feature
+31-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:3-108
+32        android:name="android.hardware.touchscreen.multitouch.distinct"
+32-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:17-80
+33        android:required="false" />
+33-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:81-105
+34    <uses-feature
+34-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:3-111
+35        android:name="android.hardware.vr.headtracking"
+35-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:17-64
+36        android:required="true"
+36-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:65-88
+37        android:version="1" />
+37-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:89-108
+38    <uses-feature
+38-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:3-88
+39        android:name="oculus.software.handtracking"
+39-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:17-60
+40        android:required="false" />
+40-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:61-85
+41
+42    <uses-permission android:name="com.oculus.permission.HAND_TRACKING" />
+42-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:3-73
+42-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:20-70
+43
+44    <application
+44-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:3-21:17
+45        android:allowBackup="false"
+45-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:114-141
+46        android:extractNativeLibs="true"
+46-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:16-48
+47        android:icon="@mipmap/app_icon"
+47-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:82-113
+48        android:label="@string/app_name"
+48-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:49-81
+49        android:networkSecurityConfig="@xml/network_sec_config" >
+49-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:142-197
+50        <activity
+50-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:5-13:16
+51            android:name="com.unity3d.player.UnityPlayerActivity"
+51-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:15-68
+52            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+52-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:181-362
+53            android:hardwareAccelerated="false"
+53-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:398-433
+54            android:launchMode="singleTask"
+54-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:149-180
+55            android:resizeableActivity="false"
+55-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:363-397
+56            android:screenOrientation="landscape"
+56-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:111-148
+57            android:theme="@style/UnityThemeSelector" >
+57-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:69-110
+58            <intent-filter>
+58-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:7-9:23
+59                <action android:name="android.intent.action.MAIN" />
+59-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:9-61
+59-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:17-58
+60
+61                <category android:name="android.intent.category.LAUNCHER" />
+61-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:9-69
+61-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:19-66
+62                <category android:name="com.oculus.intent.category.VR" />
+62-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:9-66
+62-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:19-63
+63            </intent-filter>
+64
+65            <meta-data
+65-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:7-82
+66                android:name="unityplayer.UnityActivity"
+66-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:18-58
+67                android:value="true" />
+67-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:59-79
+68            <meta-data
+68-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:7-78
+69                android:name="android.notch_support"
+69-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:18-54
+70                android:value="true" />
+70-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:55-75
+71            <meta-data
+71-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:7-81
+72                android:name="com.oculus.vr.focusaware"
+72-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:18-57
+73                android:value="true" />
+73-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:58-78
+74        </activity>
+75
+76        <meta-data
+76-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:5-69
+77            android:name="unity.splash-mode"
+77-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:16-48
+78            android:value="0" />
+78-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:49-66
+79        <meta-data
+79-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-74
+80            android:name="unity.splash-enable"
+80-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:16-50
+81            android:value="True" />
+81-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:51-71
+82        <meta-data
+82-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:5-78
+83            android:name="unity.launch-fullscreen"
+83-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:16-54
+84            android:value="True" />
+84-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:55-75
+85        <meta-data
+85-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:5-84
+86            android:name="unity.allow-resizable-window"
+86-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:16-59
+87            android:value="False" />
+87-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:60-81
+88        <meta-data
+88-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:5-81
+89            android:name="notch.config"
+89-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:16-43
+90            android:value="portrait|landscape" />
+90-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:44-78
+91        <meta-data
+91-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:5-90
+92            android:name="com.oculus.supportedDevices"
+92-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:16-58
+93            android:value="quest|quest2" />
+93-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:59-87
+94        <meta-data
+94-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:5-88
+95            android:name="com.oculus.handtracking.frequency"
+95-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:16-64
+96            android:value="HIGH" />
+96-->C:\Users\nonsk\Documents\GitHub\exampleleap\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:65-85
+97    </application>
+98
+99</manifest>
